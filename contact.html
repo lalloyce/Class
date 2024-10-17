@@ -3,13 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact Us</title>
+
+    <style>
+
+        a {
+            text-decoration: none;
+            color: blue;
+            margin-right: 20px;
+        }
+
+        body {
+            font-family: Roboto, sans-serif;
+            font-color: blue;
+            background-color: #f0f0f0;
+            margin-left: 20px;
+        }
+    </style>
+
 </head>
 <body>
 <a href="index.html">Home</a>
-<a href="contact.html">Contact Us</a>
-<a href="iframe.html">iFrame</a>
+<a href="contact.html">Login</a>
+<a href="iframe.html">iFrame</a> <br><br>
 
+<br><br>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31918.511943727033!2d34.76302999999999!3d-0.08438659999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1729090035625!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<h3>Login</h3>
+<form>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <button type="submit">Login</button><br><br>
+
+    <a href="#">Forgot Password?</a><br>
+    <a href="#">Sign Up</a>
+</form>
 </body>
 </html>
